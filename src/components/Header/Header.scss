@@ -1,0 +1,58 @@
+.Header{
+    background-color: rgba(73, 187, 189, 1);
+}
+.nav{
+    padding-top: 27px;
+    margin-left: -282px;
+    .nav_inner{
+        width: 1548px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav_list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 826px;
+            position: relative;
+            li{
+                color: #FFF;
+                font-size: 18px;
+                letter-spacing: 0.44px;
+                .nav-list-pages{
+                    color: white;
+                }
+                .nav-list-login{
+                    color: rgba(91, 91, 91, 1);
+                }
+                .nav-list-sign{
+                    color: rgba(255, 255, 255, 1);
+                }
+            }
+            .nav_login{
+                background-color: white ;
+                border: none;
+                padding: 13px 45px 14px 46px;
+                border-radius: 50px;
+                color: #5B5B5B;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 0.44px;
+                margin-right: -45px;
+                // position: absolute;
+            }
+            .nav_sign{
+                border: none;
+                border-radius: 80px;
+                background: rgba(255, 255, 255, 0.30);
+                box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+                padding: 12px 30px 15px 35px;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 0.44px;
+                margin-right: -126px;
+            }
+        }
+    }
+}
